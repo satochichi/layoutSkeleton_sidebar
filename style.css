@@ -1,0 +1,36 @@
+body {
+  background-color: red;
+  font-size: 20px;
+}
+body header {
+  background-image: url("./head_bg.jpg");
+  background-position: 50% 50%;
+  height: 200px;
+}
+body #wrap {
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  width: 1024px;
+}
+body #wrap #main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  width: 768px;
+}
+body #wrap #main .content {
+  width: 192px;
+}
+body #wrap #main .content_inner {
+  border: 1px solid #ff00ff;
+  width: 182px;
+  overflow: hidden;
+}
+body #wrap #main .content_inner img {
+  width: 182px;
+}
+body #wrap #side {
+  background-color: green;
+  width: 256px;
+}
