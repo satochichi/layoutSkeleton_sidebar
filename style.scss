@@ -9,7 +9,7 @@ body{
     font-size: 20px;
 
     header{
-        background-image:url("./head_bg.jpg");
+        background-image:url("./img/head_bg.jpg");
         background-position: 50% 50%;
         height:200px;
     }
@@ -37,9 +37,14 @@ body{
                 }
             }
         }
+
         #side{
             background-color: green;
             width: $side_width;
         }
+    }
+
+    footer{
+        background-color: yellow;
     }
 }

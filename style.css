@@ -3,7 +3,7 @@ body {
   font-size: 20px;
 }
 body header {
-  background-image: url("./head_bg.jpg");
+  background-image: url("./img/head_bg.jpg");
   background-position: 50% 50%;
   height: 200px;
 }
@@ -33,4 +33,7 @@ body #wrap #main .content_inner img {
 body #wrap #side {
   background-color: green;
   width: 256px;
+}
+body footer {
+  background-color: yellow;
 }
