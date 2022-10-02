@@ -1,9 +1,29 @@
+@media screen and (max-width: 986px) {
+  body {
+    background-color: red;
+    font-size: 20px;
+  }
+  body #wrap {
+    margin: 0 auto;
+    display: block;
+    width: auto;
+  }
+  body #wrap #main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: auto;
+  }
+  body #wrap #side {
+    background-color: aqua;
+  }
+}
 body {
   background-color: red;
   font-size: 20px;
 }
 body header {
-  background-image: url("./img/head_bg.jpg");
+  background-image: url("../img/head_bg.jpg");
   background-position: 50% 50%;
   height: 200px;
 }

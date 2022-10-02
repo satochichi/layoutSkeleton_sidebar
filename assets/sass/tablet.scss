@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 986px){
+    body{
+        background-color: red;
+        font-size: 20px;
+    
+        header{
+            
+        }
+    
+        #wrap{
+            margin:0 auto;
+            display: block;
+            width: auto;
+    
+            #main{
+                display: flex;
+                flex-wrap:wrap;
+                background-color: blue;
+                width: auto;
+                .content{
+                    &_inner{
+                        
+                    }
+                }
+            }
+    
+            #side{
+                background-color: aqua;
+
+            }
+        }
+    
+        footer{
+            
+        }
+    }
+}

@@ -1,0 +1,4 @@
+@use "sass:math";
+$wrap_width:1024px;
+$main_width:math.div($wrap_width, 16)*12;
+$side_width:math.div($wrap_width, 16)*4;

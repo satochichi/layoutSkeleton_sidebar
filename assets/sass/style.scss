@@ -1,15 +1,13 @@
 @use "sass:math";
-$wrap_width:1024px;
-$main_width:math.div($wrap_width, 16)*12;
-$side_width:math.div($wrap_width, 16)*4;
-
+@use "attributes" as att;
+@use "tablet" as tablet;
 
 body{
     background-color: red;
     font-size: 20px;
 
     header{
-        background-image:url("./img/head_bg.jpg");
+        background-image:url("../img/head_bg.jpg");
         background-position: 50% 50%;
         height:200px;
     }
@@ -18,21 +16,21 @@ body{
         margin:0 auto;
         display: flex;
         align-items: stretch;
-        width: $wrap_width;
+        width: att.$wrap_width;
 
         #main{
             display: flex;
             flex-wrap:wrap;
             background-color: blue;
-            width: $main_width;
+            width: att.$main_width;
             .content{
-                width:math.div($main_width, 4);
+                width:math.div(att.$main_width, 4);
                 &_inner{
                     border:1px solid #ff00ff;
-                    width:math.div($main_width, 4) - 10px;
+                    width:math.div(att.$main_width, 4) - 10px;
                     overflow: hidden;
                     img{
-                        width:math.div($main_width, 4) - 10px;
+                        width:math.div(att.$main_width, 4) - 10px;
                     }
                 }
             }
@@ -40,7 +38,7 @@ body{
 
         #side{
             background-color: green;
-            width: $side_width;
+            width: att.$side_width;
         }
     }
 
