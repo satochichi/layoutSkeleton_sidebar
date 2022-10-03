@@ -3,7 +3,7 @@
   "scripts": {
     "start": "run-p serve sass",
     "serve": "webpack serve",
-    "sass": "sass ./assets/sass/*.scss:./assets/css/*.css --no-source-map --watch",
+    "sass": "sass assets/sass/style.scss:assets/css/style.css --no-source-map --watch",
     "bundle": "webpack bundle"
   },
   "devDependencies": {

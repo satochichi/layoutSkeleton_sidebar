@@ -16,6 +16,7 @@
   }
   body #wrap #side {
     background-color: aqua;
+    height: 400px;
   }
 }
 body {
@@ -51,7 +52,7 @@ body #wrap #main .content_inner img {
   width: 182px;
 }
 body #wrap #side {
-  background-color: green;
+  background-color: greenyellow;
   width: 256px;
 }
 body footer {

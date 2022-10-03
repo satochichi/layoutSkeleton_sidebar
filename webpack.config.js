@@ -10,7 +10,7 @@ module.exports = {
       directory: `${__dirname}`,
       watch: true,
     },
-    watchFiles: ['*.css', '*.html', '*.php', '*.js'],
+    watchFiles: ['./assets/sass/*.scss', '*.html', '*.php', './assets/js/*.js'],
     open: true,
     hot:true,
   },
