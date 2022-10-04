@@ -1,31 +1,31 @@
 @use "sass:math";
 @use "../base/attributes" as att;
 
-#l-header{
-    background-image:url("../img/head_bg.jpg");
-    background-position: 50% 50%;
-    height:200px;
+#l-header {
+  background-image: url("../img/head_bg.jpg");
+  background-position: 50% 50%;
+  height: 200px;
 }
 
-#l-contentWrap{
-    margin:0 auto;
-    display: flex;
-    align-items: stretch;
-    width: att.$wrap_width;
+#l-contentWrap {
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  width: att.$wrap_width;
 }
 
-#l-content{
-    display: flex;
-    flex-wrap:wrap;
-    background-color: blue;
-    width: att.$main_width;
+#l-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: att.$color2;
+  width: att.$main_width;
 }
 
-#l-sidebar{
-    background-color: greenyellow;
-    width: att.$side_width;
+#l-sidebar {
+  background-color: att.$color3;
+  width: att.$side_width;
 }
 
-#l-footer{
-    background-color: yellow;
+#l-footer {
+  background-color: att.$color4;
 }

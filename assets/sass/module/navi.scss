@@ -1,0 +1,14 @@
+@use "sass:math";
+@use "../base/attributes" as att;
+
+.navi {
+  background-color: att.$color1;
+  > ul {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    > li {
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,4 +1,17 @@
 @use "sass:math";
-$wrap_width:1024px;
-$main_width:math.div($wrap_width, 16) * 12;
-$side_width:math.div($wrap_width, 16) * 4;
+$wrap_width: 1024px;
+$main_width: math.div($wrap_width, 16) * 12;
+$side_width: math.div($wrap_width, 16) * 4;
+
+// $color1: #ADF0E0;
+// $color2: #B4FAD0;
+// $color3: #A2E0A4;
+// $color4: #C8F7A6;
+// $color5: #E5F0A3;
+
+/* Color Theme Swatches in Hex */
+$color1: #f8f7fa;
+$color2: #8981c7;
+$color3: #acacad;
+$color4: #141038;
+$color5: #6f6f70;
