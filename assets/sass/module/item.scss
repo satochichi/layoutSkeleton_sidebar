@@ -1,0 +1,14 @@
+@use "sass:math";
+@use "../base/attributes" as att;
+
+.item{
+    width:math.div(att.$main_width, 4);
+    > .inner{
+        border:1px solid #ff00ff;
+        width:math.div(att.$main_width, 4) - 10px;
+        overflow: hidden;
+        img{
+            width:math.div(att.$main_width, 4) - 10px;
+        }
+    }
+}
