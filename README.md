@@ -2,7 +2,7 @@
 作成する時点での最新のパッケージをインストールしてください。
 package.jsonのdevDependenciesを削除した上で下記を実施してください
 ```
-npm install --save-dev webpack webpack-cli webpack-dev-server npm-run-all sass
+npm install --save-dev webpack webpack-cli webpack-dev-server npm-run-all sass prettier onchange
 ```
 
 ```
